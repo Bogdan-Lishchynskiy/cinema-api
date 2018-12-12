@@ -3,7 +3,7 @@
 It is simple Cinema-api-app, you can call api through Postman and see the result.
 App is deployed on Heroku server.
 
-## Getting Started
+## Getting Started with testing via Postman
 
 App is stored on https://nameless-wave-59099.herokuapp.com and through Postman adding to url different api path you can make calls.
 
@@ -32,3 +32,21 @@ Example:
 * method GET/api/movies/:id - /api/movies/:id //Get movies by Id.
 
 * method DELETE/api/movies/:id - /api/movies/:id //Delete movie by Id for authentication users.
+
+### Getting Started with cloning project and run locally
+
+You can simply clone this project.
+
+```
+npm install
+```
+To run it on http://localhost:3000 ,you need to run on background Mongodb server on port 27017,after you can press
+
+```
+npm start
+```
+To run tests you need press
+
+```
+npm test
+```
