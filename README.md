@@ -16,6 +16,7 @@ Example:
 * method GET - /api/users //Get all users only for authentication users only.(required fields in req.headers: key=x-auth-token  value=Authentication token
 
 * method GET - /api/users/:id //Get user by Id only for authentication users only.(required fields in req.headers: key=x-auth-token  value=your Authentication token which get from api/auth
+##
 
 * method POST - /api/genres //Add new genre only for authentication users only.(required fields in req.body{"name": ""}
 
@@ -24,6 +25,7 @@ Example:
 * method GET - /api/genres //Get all genres only for authentication users only.
 
 * method GET - /api/genres/:id //Get genres by Id only for authentication users only.
+##
 
 * method POST - /api/movies //Add new movies.(required fields in req.body{"title": "", "genreId": ""} genreId releted to this movie.
 
