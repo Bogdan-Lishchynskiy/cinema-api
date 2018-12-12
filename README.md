@@ -35,18 +35,19 @@ Example:
 
 ### Getting Started with cloning project and run locally
 
-You can simply clone this project.
+You can simply clone this project and then press:
 
 ```
 npm install
 ```
-To run it on http://localhost:3000 ,you need to run on background Mongodb server on port 27017,after you can press
+To run it on http://localhost:3000 ,you need to run on background Mongodb server on port 27017, after you can press:
 
 ```
 npm start
 ```
-To run tests you need press
+To run tests you need press:
 
 ```
 npm test
 ```
+App wil running on http://localhost:3000 and through Postman adding to url different api path you can make calls like in example which are upper.
