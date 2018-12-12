@@ -1,3 +1,4 @@
 {
-  "jwtPrivatKey": "app_jwtPrivatKey"
+  "jwtPrivatKey": "app_jwtPrivatKey",
+  "db": "cinema_db"
 }
