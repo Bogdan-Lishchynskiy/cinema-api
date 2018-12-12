@@ -1,0 +1,39 @@
+{
+  "name": "cinema-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "engines": {
+    "node":"8.11.3"
+  },
+  "dependencies": {
+    "bcrypt": "3.0.2",
+    "body-parser": "1.18.3",
+    "compression": "^1.7.2",
+    "config": "3.0.0",
+    "cookie-parser": "1.4.3",
+    "debug": "2.6.9",
+    "express": "4.16.0",
+    "express-async-errors": "2.1.0",
+    "helmet": "^3.11.0",
+    "joi": "14.3.0",
+    "joi-objectid": "2.0.0",
+    "jsonwebtoken": "8.4.0",
+    "lodash": "4.17.11",
+    "mongoose": "5.0.1",
+    "morgan": "1.9.0",
+    "winston": "2.4.0",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^22.2.2",
+    "supertest": "^3.0.0"
+  }
+}
