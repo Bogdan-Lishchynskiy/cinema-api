@@ -6,6 +6,7 @@ App is deployed on Heroku server.
 ## Getting Started
 
 App is stored on https://nameless-wave-59099.herokuapp.com and through Postman adding to url different api path you can make calls.
+
 Example: 
 
 * method POST/api/users - /api/users //Register new user.(required fields in req.body{"name": "", "email": "", "password": ""}
