@@ -3,7 +3,7 @@
 /**
  * Module dependencies.
  */
-
+console.log('======================================================================')
 var app = require('../app');
 var debug = require('debug')('cinema-api:server');
 var http = require('http');

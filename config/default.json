@@ -1,4 +1,4 @@
 {
-  "jwtPrivatKey": "",
-  "db": "mongodb://localhost/cinema"
+  "jwtPrivatKey": "1234",
+  "db": "mongodb://localhost/cinema2"
 }
