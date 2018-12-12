@@ -50,4 +50,18 @@ To run tests you need press:
 ```
 npm test
 ```
-App wil running on http://localhost:3000 and through Postman adding to url different api path you can make calls like in example which are upper.
+App wil running on http://localhost:3000 and through Postman adding to url different api path you can make calls like in examples which are upper.
+
+## Built With
+
+* [Nodejs](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine
+* [Express](https://expressjs.com/) - Nodejs framework used
+* [Jest](https://jestjs.io/) - Used to create test
+
+## Covered tasks
+
+* CRUD operations
+* authorization && authentication users
+* bcrypt password 
+* middleware functions
+* integration && unit tests
