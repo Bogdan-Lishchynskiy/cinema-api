@@ -34,6 +34,7 @@ Example:
 * method GET - /api/movies/:id //Get movies by Id.
 
 * method DELETE - /api/movies/:id //Delete movie by Id for authentication users only.
+##
 
 ### Getting Started with cloning project and run locally
 
